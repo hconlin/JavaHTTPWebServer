@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>D3 Demo</title>
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<style>
+		.graph {
+			display:inline-block;
+		}
+
+		h1 {
+			text-align: center;
+		}
+		
+		.axis {
+			font: 10px sans-serif;
+		}
+		
+		.axis path, .axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+	</style>
+</head>
+<body>
+
+<div class="graph">
+	<h1>Scatter Graph<h1>
+	<div id="scatter_area"></div>
+</div>
+
+<div class="graph">
+	<h1>Bar Graph<h1>
+	<div id="bar_area"></div>
+</div>
+
+<script type="text/javascript" src="/js/scattergraph.js"></script>
+<script type="text/javascript" src="/js/bargraph.js"></script>
+
+</body>
+</html>
